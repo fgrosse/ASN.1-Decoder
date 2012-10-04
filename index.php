@@ -29,8 +29,8 @@
       
       <div class="hero-unit">
       	<h2>Input your Base64 encoded data here:</h2>
-        <form>	        
-	        <textarea rows="16" class="span10" style="font-family: monospace;">
+        <form action="index.php" method="post">	        
+	        <textarea name='input' rows="16" class="span10" style="font-family: monospace; width: 799px;">
 MIIDfjCCAuegAwIBAgIKZGgbPQAAAABnVTANBgkqhkiG9w0BAQUFADBGMQswCQYD
 VQQGEwJVUzETMBEGA1UEChMKR29vZ2xlIEluYzEiMCAGA1UEAxMZR29vZ2xlIElu
 dGVybmV0IEF1dGhvcml0eTAeFw0xMjA4MTYxMjI2MTlaFw0xMzA2MDcxOTQzMjda
@@ -54,11 +54,12 @@ D0k6lc6/SWpmbg33TqEDjl8OsvMUzV6S8XRz2L/rqZ1z1g==
 							       
 	        <p><button type="submit" class="btn btn-primary">Decode</button></p>
         </form>
-      </div>
-
-      <div class="row">
         
-      </div>
+        <?php if(isset($_POST['input'])) {     
+            require_once 'process.php';
+		} ?>
+		
+		</div>      
 
       <hr>
 
