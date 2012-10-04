@@ -1,0 +1,3 @@
+[submodule "phpasn1"]
+	path = phpasn1
+	url = git@github.com:FGrosse/PHPASN1.git
