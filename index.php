@@ -27,9 +27,9 @@
 
     <div class="container">
       
-      <div class="hero-unit">
+      <div class="hero-unit" style='padding-top: 20px;'>
       	<h2>Input your Base64 encoded data here:</h2>
-        <form action="index.php" method="post">	        
+        <form method="post">	        
 	        <textarea name='input' rows="16" class="span10" style="font-family: monospace; width: 799px;">
 MIIDfjCCAuegAwIBAgIKZGgbPQAAAABnVTANBgkqhkiG9w0BAQUFADBGMQswCQYD
 VQQGEwJVUzETMBEGA1UEChMKR29vZ2xlIEluYzEiMCAGA1UEAxMZR29vZ2xlIElu
