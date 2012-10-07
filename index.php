@@ -87,7 +87,7 @@ D0k6lc6/SWpmbg33TqEDjl8OsvMUzV6S8XRz2L/rqZ1z1g==
         <hr>
         <footer>
             <p class="pull-right" style="text-align: right;">
-                Built with <a href="http://twitter.github.com/bootstrap">Bootstrap</a><br>
+                Built with <a href="http://twitter.github.com/bootstrap">Bootstrap</a>
                 and <a href="http://jqueryui.com/">JQuery UI</a>
             </p>
             <p>&copy; <a href="https://github.com/FGrosse"><i class="icon-user"></i> Friedrich Große</a>, Berlin 2012</p>
