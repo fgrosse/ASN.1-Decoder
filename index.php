@@ -26,7 +26,8 @@
     <div id="aboutDialog" title="About ASN.1 Decoder">
         <!-- The About Dialog -->
         <p>ASN.1 Decoder was created by <a class="aboutLink" href="https://github.com/FGrosse">Friedrich Große</a>.<br>
-           It is a complete <a class="aboutLink" href="http://en.wikipedia.org/wiki/ASN.1">ASN.1</a> parser build in PHP.
+           It is a complete <a class="aboutLink" href="http://en.wikipedia.org/wiki/ASN.1">ASN.1</a> 
+           <a class="aboutLink" href="http://en.wikipedia.org/wiki/Basic_Encoding_Rules">BER</a> parser build in PHP.
         </p>
         <p>           
            All of the source code is published under the GPL license and can be found <a class="aboutLink" href="https://github.com/FGrosse/PHPASN1">on GitHub</a>.          
@@ -38,7 +39,7 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="#">ASN.1 Decoder</a>
+          <a class="brand" href="#">ASN.1 BER Decoder</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
